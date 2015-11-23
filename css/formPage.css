@@ -1,0 +1,77 @@
+body{ background: url(../img/register_bg.png) no-repeat top center; background-size: cover;}
+.wrapper {
+				width: 1120px;
+				margin: 0 auto;
+			}
+			.clearfix:after {
+				content: ".";
+				display: block;
+				clear: both;
+				font-size: 0;
+				overflow: hidden;
+				height: 0;
+			}
+			.clearfix {
+				zoom: 1;
+			}
+			form {
+				margin: 40px 0 0 340px;
+			}
+			form p {
+				margin-bottom: 10px;
+			}
+			form a {
+				color: #ff7702;
+			}
+			label {
+				float: left;
+				height: 48px;
+				line-height: 48px;
+				color: #F00;
+				text-indent: 10px;
+			}
+			label.one {
+				width: 90px;
+				height: 48px;
+				text-align: right;
+				color: #000;
+				font-size: 16px;
+			}
+			input {
+				float: left;
+				font-size: 16px;
+				font-family: "微软雅黑";
+				color: #666;
+			}
+			select
+			{
+				  width: 200px;
+				  height: 46px;
+				  font-size: 16px;
+				  text-indent: 10px;
+			}
+			.get_code {
+				height: 48px;
+				width: 110px;
+				margin-left: 10px;
+				border: 1px solid #ccc;
+				cursor: pointer;
+			}
+			.submit {
+				margin-left: 90px;
+				background: #F93;
+				font-size: 20px;
+				letter-spacing: 4px;
+				color: #fff;
+				cursor: pointer;
+			}
+			 
+			#password,
+			#confirm_password,
+			.submit,
+			#agent ,.age,.name {
+				border: 1px solid #ccc;
+				width: 300px;
+				height: 46px;
+				text-indent: 10px;
+			}
